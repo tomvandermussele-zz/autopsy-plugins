@@ -1,3 +1,0 @@
-
-# Autopsy Plugins
-> .
