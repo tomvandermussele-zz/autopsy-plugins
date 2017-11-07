@@ -1,5 +1,4 @@
 # Autopsy Plugins
-[TOC]
 
 #### Introduction
 
