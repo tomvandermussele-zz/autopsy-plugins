@@ -1,13 +1,16 @@
 # Chrome Passwords Identifier
 
-#### Introduction
 
-This plugin will go through all identified Chrome Passwords container and extract certain artifacts.
+The plugin will go through identified Chrome Password Databases and extract certain artifacts.
+This can demonstrate knowledge and help in triaging.
+
+#### Notes
+
+The plugins have been tested on a Windows 7 x64 and Autopsy versions:
+- .>= 4.3.0 (64 bit)
 
 
-#### Install
-		
-- You can download the scripts you like and place them in %appdata%\Autopsy\python_modules\.
- - Reload Autopsy
- - Open/Create a case and add a source
- - You will find the added modules under the menu Tools\Run Ingest Modules\(ImageFileName)
+If you have tested other version and have a success of failure to use, feel free to let me know.
+
+
+ 
