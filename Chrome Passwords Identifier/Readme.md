@@ -6,6 +6,10 @@ This can demonstrate knowledge and help in triaging.
 
 #### Notes
 
+This does not decrypt or crack any passwords.
+
+TODO: Organize per account instead of 1 extraction window.
+
 The plugins have been tested on a Windows 7 x64 and Autopsy versions:
 - .>= 4.3.0 (64 bit)
 
