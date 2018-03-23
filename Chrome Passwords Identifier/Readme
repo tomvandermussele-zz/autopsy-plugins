@@ -11,4 +11,3 @@ This plugin will go through all identified Chrome Passwords container and extrac
  - Reload Autopsy
  - Open/Create a case and add a source
  - You will find the added modules under the menu Tools\Run Ingest Modules\(ImageFileName)
- 
