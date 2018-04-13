@@ -315,9 +315,17 @@ class WindowsCommunicationModule(DataSourceIngestModule):
             else:
                 pass
         
-        #cleanup
-        os.remove(lclXMLPath)
-        os.remove(lclXMLPath+".rewrite")
+            #cleanup
+            try:
+                os.remove(lclXMLPath)
+                os.remove(lclXMLPath+".rewrite")
+            except:
+                self.log(Level.INFO, "Cleanup of files did not work  ")
+    
+        message = IngestMessage.createMessage(IngestMessage.MessageType.DATA,
+            "Windows Communication App - Contacts", "Windows Communication App - Contacts Has Been Analyzed " )
+        IngestServices.getInstance().postMessage(message)
+    
         return IngestModule.ProcessResult.OK
             
     # def shutDown(self):
